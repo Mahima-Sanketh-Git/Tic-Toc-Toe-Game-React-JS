@@ -44,9 +44,9 @@ const TicTacToe = () => {
   const won = (data)=>{
     setLock(true);
     if(data==='x'){
-     titleRef.current.innerHTML = `Congradulation <img src=${cross_icon}>`;
+     titleRef.current.innerHTML = `Congratulation <img src=${cross_icon}>`;
     }else if(data==='o'){
-      titleRef.current.innerHTML = `Congradulation <img src=${circle_icon}>`;
+      titleRef.current.innerHTML = `Congratulation <img src=${circle_icon}>`;
     }
   }
   const toggle = (e,num)=>{
